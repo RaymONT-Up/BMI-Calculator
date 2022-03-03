@@ -7,13 +7,13 @@ let bmi;
 
 function outputInHTML() {
   if (bmi) {
-    if (bmi <= 17) {
+    if (bmi <= 16.25) {
       // Анорексия
       bmiInHTML.innerHTML = `Ваш ИМТ: <span class="bmi--bad-three">${bmi}</span>
     </br>
     У вас анорексия!
     `;
-    } else if ((bmi >= 17) & (bmi <= 18.5)) {
+    } else if ((bmi >= 16.25) & (bmi <= 18.5)) {
       // Недостаток массы
       bmiInHTML.innerHTML = `Ваш ИМТ: <span class="bmi--bad-two">${bmi}</span>
     </br>
