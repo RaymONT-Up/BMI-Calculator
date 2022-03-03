@@ -29,7 +29,7 @@ function outputInHTML() {
       // излишний вес
       bmiInHTML.innerHTML = `Ваш ИМТ: <span class="bmi--bad-two">${bmi}</span>
     </br>
-    У вас излишний вес.
+    У вас избыточный вес.
     `;
     } else if (bmi >= 30 && bmi <= 35) {
       // ожирение 1
